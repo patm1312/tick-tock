@@ -9,12 +9,10 @@
     margin: 0px 150px;
 }
 .main_c{
-    border: 1px solid black;
+    
     padding-top: 120px;
 }
-.header_c{
-    border: 2px solid rgb(115, 7, 161);
-}
+
 /* Header fijo */
 .header {
     background-color: white;
@@ -282,7 +280,7 @@
 /* contenido del slider */
 .section__slider{
     max-width: 100%;
-    border: 1px solid black;
+   
     height: auto;
     display: grid;
     grid-template-columns: 0.5fr 0.1fr 3fr 0.1fr 0.5fr;
@@ -308,7 +306,7 @@
     color: #000000;
 }
 .slider-slide{
-    border: 1px solid blue;
+   
     display: block;
     opacity: 0;
     visibility: hidden;
