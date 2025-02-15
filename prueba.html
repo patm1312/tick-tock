@@ -1,0 +1,229 @@
+<div class="flex flex-wrap justify-center gap-6 py-8"> <!-- Contenedor flex que centra las tarjetas y agrega espacio entre ellas -->
+        <div class="max-w-xs p-4 bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105 dark:bg-gray-800 dark:border-gray-700">
+            <a >
+            <!-- Imagen principal del producto -->
+            <div class="w-full h-48 bg-gray-200 rounded-lg overflow-hidden">
+                <!-- //aqui  se debe mostrar solo la primera imagen -->
+                <img src="" alt="" class="w-full h-full object-cover">
+            </div>
+            <!-- Contenido de la tarjeta -->
+            <div class="p-4 flex flex-col items-start space-y-2">
+                <!-- Nombre del producto -->
+                <h5 class="text-lg font-semibold text-gray-900 dark:text-white"></h5>
+                <!-- Descripción breve (máximo 30 caracteres) -->
+                <p class="text-sm text-gray-600 dark:text-gray-400"></p>
+                <!-- Precios -->
+                <div class="flex items-center space-x-2">
+                    <!-- Precio con descuento -->
+                    <span class="text-xl font-bold text-green-500">
+                         COP <!-- Precio en pesos colombianos -->
+                    </span>
+                    <!-- Precio tachado (precio original con descuento) -->
+                    <span class="text-sm line-through text-gray-500">
+                         COP <!-- Precio original con descuento aplicado -->
+                    </span>
+                    <!-- Icono de oferta -->
+                    <span class="text-xs bg-red-500 text-white px-2 py-1 rounded-full">
+                        Oferta
+                    </span>
+                </div>
+                <!-- Envío gratis -->
+                <div class="mt-2 flex items-center space-x-1 text-sm text-gray-600 dark:text-gray-400">
+                    <!-- Icono de envío gratis -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-4 h-4 text-green-500" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zM2 0h12a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H2A4 4 0 0 1 0 12V4a4 4 0 0 1 4-4zm7 5H7v3h2V5z"/>
+                    </svg>
+                    <span>Envío gratis</span>
+                </div>
+                <!-- Botón "Añadir al carrito" -->
+                    <button type="submit" class="w-full bg-blue-600 text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition duration-200 flex items-center justify-center space-x-2">
+                        <!-- Icono de carrito -->
+                        <i class="fas fa-shopping-cart"></i> 
+                        <span>Añadir al carrito</span>
+                    </button>
+
+            </div>
+        </a>
+        </div>
+</div>
+<!-- 
+codigp sin backend y  taiwind convertido -->
+<div class="index-container">
+    <div class="index-card">
+        <a>
+            <!-- Imagen principal del producto -->
+            <div class="index-image-container">
+                <img src="" alt="" class="index-product-image">
+            </div>
+            <!-- Contenido de la tarjeta -->
+            <div class="index-card-content">
+                <h5 class="index-product-title"></h5>
+                <p class="index-product-description"></p>
+                <div class="index-price-container">
+                    <span class="index-discount-price">COP</span>
+                    <span class="index-original-price">COP</span>
+                    <span class="index-offer-tag">Oferta</span>
+                </div>
+                <div class="index-free-shipping">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="index-shipping-icon" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zM2 0h12a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H2A4 4 0 0 1 0 12V4a4 4 0 0 1 4-4zm7 5H7v3h2V5z"/>
+                    </svg>
+                    <span>Envío gratis</span>
+                </div>
+                <button type="submit" class="index-add-to-cart">
+                    <i class="fas fa-shopping-cart"></i> 
+                    <span>Añadir al carrito</span>
+                </button>
+            </div>
+        </a>
+    </div>
+</div>
+
+como estaba
+<div class="product-card">
+    <a  data-product="curren8398">
+        <div class="product-image">
+            <img src="../assets/images/productos/curren8398/relojuno.png" alt="">
+         </div>
+        
+        <div class="product-content">
+            <h5 class="product-title">Reloj De Pulsera CURREN Para Hombre Con Correa De Cuero Genuino</h5>
+            <p class="product-description">Relojes Hombre Curren 8398 marca Original reloj de cuarzo analógico de lujo para hombre reloj de pulsera Relojes de Cuero cronógrafo.</p>
+            
+            <div class="price-container">
+                <span class="price">160.000 COP</span>
+                <span class="old-price">190.000COP</span>
+                <span class="offer-badge">Oferta</span>
+            </div>
+
+            <div class="free-shipping">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zM2 0h12a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H2A4 4 0 0 1 0 12V4a4 4 0 0 1 4-4zm7 5H7v3h2V5z"/>
+                </svg>
+                <span>Envío gratis</span>
+            </div>
+
+           
+              
+                <button onclick="loadPage('home', 'curren8398')" type="" class="add-to-cart" data-product="curren8398">
+                    <i class="fas fa-shopping-cart"></i> 
+                    <span>Añadir al carrito</span>
+                </button>
+          
+        </div>
+    </a>
+</div> 
+
+
+
+
+: producto indivuvual:
+
+
+   <!-- Detalles del producto -->
+<div class="space-y-4">
+    <div class="text-lg text-gray-700 dark:text-gray-300">
+        <strong>Detalles:</strong>
+        <p>{{ $producto['detalles']['descripcion'] }}</p>
+    </div>
+    <!-- Mensajes destacados -->
+    <div class="space-y-4">
+        <!-- Envíos gratis -->
+        <div class="flex items-center p-4 bg-green-100 text-green-700 rounded-lg shadow-lg">
+            <svg class="w-6 h-6 mr-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"><path d="M6.293 9.293a1 1 0 011.414 0L10 11.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"></path></svg>
+            <span class="deletrear text-lg">¡Envíos gratis a toda Colombia!</span>
+        </div>
+        <!-- Pago seguro contra entrega -->
+        <div class="flex items-center p-4 bg-blue-100 text-blue-700 rounded-lg shadow-lg">
+            <svg class="w-6 h-6 mr-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"><path d="M3.5 4a.5.5 0 01.5.5V6h13V4.5a.5.5 0 011 0V7a.5.5 0 01-.5.5H3a.5.5 0 01-.5-.5V4.5a.5.5 0 01.5-.5zM16 7H4a1 1 0 00-1 1v9a1 1 0 001 1h12a1 1 0 001-1V8a1 1 0 00-1-1zM4 8h12v8H4V8z"></path></svg>
+            <span class="deletrear text-lg">Pago seguro contra entrega.</span>
+        </div>¿
+        <!-- Productos con garantía -->
+        <div class="flex items-center p-4 bg-yellow-100 text-yellow-700 rounded-lg shadow-lg">
+            <svg class="w-6 h-6 mr-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"><path d="M9.293 2.293a1 1 0 011.414 0l4 4a1 1 0 01.287.706v10a1 1 0 01-.287.707l-4 4a1 1 0 01-1.414-1.414L12.586 16H7.414l-2.293 2.293a1 1 0 01-1.414-1.414l4-4a1 1 0 01.707-.287h10a1 1 0 01.707.287l4 4a1 1 0 01-1.414 1.414L16 13.586v-10l2.293 2.293a1 1 0 01-.287-.707V2a1 1 0 01-.287-.706l-4-4z"></path></svg>
+            <span class="deletrear text-lg">Productos con garantía.</span>
+        </div>
+        <!-- Otro mensaje -->
+        <div class="flex items-center p-4 bg-pink-100 text-pink-700 rounded-lg shadow-lg">
+            <svg class="w-6 h-6 mr-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"><path d="M15 5a3 3 0 11-6 0 3 3 0 016 0zM8 8a3 3 0 11-6 0 3 3 0 016 0zM15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            <span class="deletrear text-lg">Soporte 24/7 para cualquier consulta.</span>
+        </div>
+    </div>
+</div>
+<!-- Botón de WhatsApp -->
+<a href="https://wa.me/573001234567?text=Hola,%20estoy%20interesado%20en%20comprar%20este%20producto" class="flex items-center justify-center py-3 px-5 bg-green-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-green-300">
+    <svg class="w-6 h-6 mr-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"><path d="M9 2C4.58 2 1 5.58 1 9s3.58 7 8 7c1.38 0 2.72-.32 3.93-.88l4.69 2.56-1.61-5.11c.55-.97.88-2.08.88-3.57 0-3.42-3.58-7-8-7zm0 12c-.77 0-1.53-.13-2.24-.37l-1.39.77-.68-2.08.96-.56c-.37-.93-.56-1.94-.56-2.91 0-2.76 2.24-5 5-5s5 2.24 5 5-2.24 5-5 5z"></path></svg>
+    <span>Contactar por WhatsApp</span>
+</a>
+<!-- Sección de atributos -->
+<!-- Sección de Atributos del Producto -->
+<div class="space-y-8">
+    <!-- Título principal -->
+    <h2 class="text-4xl font-bold text-center text-blue-600 flex items-center justify-center space-x-2">
+        <i class="fas fa-star text-yellow-400"></i> <!-- Ícono decorativo -->
+        <span>Lo Mejor de lo Mejor</span>
+        <i class="fas fa-trophy text-yellow-400"></i> <!-- Ícono decorativo -->
+    </h2>
+    <div class="p-6 bg-white rounded-lg shadow-lg flex flex-col items-center space-y-4 sm:space-y-6">
+        <!-- Título del atributo con ícono -->
+        <div class="flex items-center space-x-2 text-center">
+            <i class="fas fa-tag text-blue-500 text-2xl"></i> <!-- Ícono decorativo en el título del atributo -->
+            <p class="text-2xl font-bold text-indigo-600">{{ $atributo['tipo'] }}</p>
+        </div>
+        <!-- Descripción del atributo con estilo más destacado -->
+        <p class="text-xl font-semibold text-gray-700 text-center">{{ $atributo['valor'] }}</p>
+        <!-- Media asociado (imagen o video) -->
+        <div class="w-full sm:w-2/3 lg:w-1/2">
+            @if($loop->last)
+                <!-- Mostrar video para el último atributo, si está disponible -->
+                @foreach($producto['media'] as $item)
+                    @if($item['tipo'] == 'video')
+                        <video controls class="w-full h-auto rounded-lg shadow-lg">
+                            <source src="{{ asset($item['url']) }}" type="video/mp4">
+                        </video>
+                        @break
+                    @endif
+                @endforeach
+            @else
+                <!-- Mostrar imagen para los atributos anteriores al último -->
+                @if(isset($producto['media'][$index]) && $producto['media'][$index]['tipo'] == 'imagen')
+                    <img 
+                        src="{{ asset($producto['media'][$index]['url']) }}" 
+                        alt="Atributo: {{ $atributo['tipo'] }}" 
+                        class="w-full h-auto object-cover rounded-lg shadow-lg cursor-pointer hover:opacity-75"
+                        onclick="changeImage('{{ asset($producto['media'][$index]['url']) }}', 'imagen')">
+                @else
+                    <!-- Imagen predeterminada o sin imagen -->
+                    <img src="{{ asset('images/default.jpg') }}" alt="Imagen no disponible" class="w-full h-auto object-cover rounded-lg shadow-lg">
+                @endif
+            @endif
+        </div>
+    </div>
+@endforeach
+</div>
+
+
+<div class="show_producto_max-w-screen-xl">
+    <div class="show_producto_grid">
+        <div class="show_producto_space-y-4">
+            <div class="show_producto_relative" id="main-container">
+                <img id="main-image" src="" alt="" class="show_producto_w-full show_producto_h-auto show_producto_rounded-lg show_producto_shadow-lg">
+                <button id="prev-btn" class="show_producto_absolute show_producto_left-0 show_producto_bg-gray-700 show_producto_hover-bg-gray-600">&#8592;</button>
+                <button id="next-btn" class="show_producto_absolute show_producto_right-0 show_producto_bg-gray-700 show_producto_hover-bg-gray-600">&#8594;</button>
+            </div>
+            <div class="show_producto_flex show_producto_space-x-4">
+
+                        <div>
+                            <img src="" alt="Producto" class="show_producto_w-20 show_producto_h-20 show_producto_object-cover show_producto_rounded-lg show_producto_cursor-pointer">
+                        </div>
+            </div>
+        </div>
+        <div class="show_producto_space-y-6">
+            <h2 class="show_producto_text-4xl show_producto_text-gray-900"></h2>
+            <p class="show_producto_text-lg show_producto_text-gray-500"></p>
+            <p class="show_producto_text-3xl show_producto_text-green-600"> COP</p>
+            <p class="show_producto_text-sm show_producto_text-red-500">Precio de oferta</p>
+            <a href="https://wa.me/573001234567?text=Hola,%20estoy%20interesado%20en%20comprar%20este%20producto" class="show_producto_flex show_producto_p-4 show_producto_bg-green-100 show_producto_text-green-700 show_producto_rounded-lg show_producto_hover-bg-green-700 show_producto_text-white show_producto_font-semibold">Contactar por WhatsApp</a>
+        </div>
+    </div>
+</div>

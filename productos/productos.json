@@ -1,0 +1,84 @@
+[
+    {
+         "codigo": "curren8398",
+         "nombre": "Reloj De Pulsera CURREN Para Hombre",
+         "descripcion": "Reloj De Pulsera CURREN Para Hombre Con Correa De Cuero Genuino",
+         "precio": 160000,
+         "detalles": {
+             "nombre": "Reloj De Pulsera",
+             "descripcion": "Relojes Hombre Curren 8398 marca Original reloj de cuarzo analógico de lujo para hombre reloj de pulsera Relojes de Cuero cronógrafo."
+         },
+         "media": [
+             {
+                 "tipo": "imagen",
+                 "url": "assets/images/productos/curren8398/relojuno.png"
+             },
+             {
+                "tipo": "imagen",
+                "url": "assets/images/productos/curren8398/relojdos.png"
+            },
+             {
+                 "tipo": "video",
+                 "url": "assets/images/productos/curren8398/relojuno.mp4"
+             }
+ 
+         ],
+         "atributos": [
+             {
+                 "tipo": "tipo de Material",
+                 "valor": "Vidrio"
+             },
+             {
+                 "tipo": "Tipo de material de la banda",
+                 "valor": "Aleación"
+             },
+             {
+                "tipo": "Material de la caja",
+                "valor": "De cuero."
+            },
+            {
+                "tipo": "Tipo de cierre",
+                "valor": "Hebilla"
+            },
+            {
+                "tipo": "Característica",
+                "valor": "Cronógrafo, Calendario completo, Día/fecha, Impermeable"
+            },
+            {
+                "tipo": "Usuario",
+                "valor": "Hombres"
+            },
+            {
+                "tipo": "Marca",
+                "valor": "Curren"
+            },
+            {
+                "tipo": "Número de Modelo",
+                "valor": "8398"
+            },
+            {
+                "tipo": "Material",
+                "valor": "De cuero"
+            },
+            {
+                "tipo": "Edad",
+                "valor": "2024"
+            },
+            {
+                "tipo": "Marque la pantalla",
+                "valor": "Puntero"
+            },
+            {
+                "tipo": "Duración de La batería",
+                "valor": "12 meses"
+            }
+            ,
+            {
+                "tipo": "Material",
+                "valor": "Acero de La Mancha"
+            }
+ 
+         ]
+     }
+ ]
+ 
