@@ -334,26 +334,7 @@
  .previos:hover{
     color: #000000;
 }
-@media screen and (max-width: 750px){
-    .slider-slide{
-        grid-column: 1 / 6 ;
-    }
-    .previos{
-        grid-column: 1 / 2 ;
 
-    }
-    .next{
-        grid-column: 5 / 6 ;
-
-    }
-    .sliderImg{
-        position: absolute;
-        display: block;
-         object-fit: scale-down;
-        /* hace que la imagen se vea en x la mitad y en y 0 o la parte superior */
-        /* object-position: 50% 0%; */
-    }
-}
 /* Responsivo */
 @media screen and (max-width: 768px) {
     .main_section{
@@ -1649,3 +1630,29 @@ a:hover {
     background: #0056b3;
 }
 
+@media screen and (max-width: 750px){
+    .section{
+        padding-top: 0rem;
+        padding-bottom: 4rem;
+        margin-top: 0rem;
+        margin-bottom: 3rem;
+    }
+    .slider-slide{
+        grid-column: 1 / 6 ;
+    }
+    .previos{
+        grid-column: 1 / 2 ;
+
+    }
+    .next{
+        grid-column: 5 / 6 ;
+
+    }
+    .sliderImg{
+        position: absolute;
+        display: block;
+         object-fit: scale-down;
+        /* hace que la imagen se vea en x la mitad y en y 0 o la parte superior */
+        /* object-position: 50% 0%; */
+    }
+}
