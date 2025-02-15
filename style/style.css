@@ -346,6 +346,13 @@
         grid-column: 5 / 6 ;
 
     }
+    .sliderImg{
+        position: absolute;
+        display: block;
+         object-fit: scale-down;
+        /* hace que la imagen se vea en x la mitad y en y 0 o la parte superior */
+        /* object-position: 50% 0%; */
+    }
 }
 /* Responsivo */
 @media screen and (max-width: 768px) {
