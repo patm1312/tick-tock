@@ -89,15 +89,6 @@
 }
 
 /* Icono menú hamburguesa */
-.menu-icon {
-    display: none;
-}
-
-.menu-icon button {
-    background: none;
-    border: none;
-    cursor: pointer;
-}
 
 .icon {
     width: 24px;
@@ -116,10 +107,12 @@
     top: 60px;
     left: 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
 }
 .mobile-menu.show {
     display: block;
 }
+
 .mobile-menu button {
     background: none;
     border: none;
@@ -128,6 +121,9 @@
     width: 100%;
     padding: 10px 0;
     cursor: pointer;
+}
+.close-iconn{
+    display:none;
 }
 /* Estilos generales */
 .footer {

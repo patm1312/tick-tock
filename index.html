@@ -25,18 +25,17 @@
                     <img src="assets/images/web/logo.png" alt="logo">
                 </a>
             </div>
-    
             <!-- Icono del menú hamburguesa -->
             <div class="menu-icon">
-                <button id="menu-toggle">
-                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                    </svg>
+                <button class="menu-toggle" id="menu-toggle">
+                    <span id="menu-iconn">☰</span> <!-- Icono del menú hamburguesa -->
+                    <!-- Icono de cierre (X) -->
                 </button>
             </div>
     
             <!-- Menú de navegación -->
             <nav class="nav-menu" id="nav-menu">
+                
                 <button onclick="loadPage('home')">Inicio</button>
                 <button onclick="loadPage('catalogo')">Catálogo</button>
                 <button onclick="loadPage('contacto')">Contacto</button>
@@ -50,6 +49,7 @@
         <!-- Menú desplegable móvil -->
         <!-- Menú de navegación móvil -->
 <nav class="mobile-menu" id="mobile-menu">
+    <span id="close-iconn" class="close-icon cerrar">✖</span>
     <button onclick="loadPage('home')">Inicio</button>
     <button onclick="loadPage('catalogo')">Catálogo</button>
     <button onclick="loadPage('contacto')">Contacto</button>
@@ -141,12 +141,20 @@
     <script>
         // JavaScript para mostrar y ocultar el menú hamburguesa en dispositivos móviles
         document.addEventListener("DOMContentLoaded", function () {
-    const menuToggle = document.getElementById("menu-toggle");
-    const mobileMenu = document.getElementById("mobile-menu");
-
-    menuToggle.addEventListener("click", function () {
-        mobileMenu.classList.toggle("show");
-    });
+            const menuToggle = document.getElementById("menu-toggle");
+            const mobileMenu = document.getElementById("mobile-menu");
+            const hm = document.getElementById("menu-iconn");
+            const cerrar = document.getElementById("close-iconn");
+            menuToggle.addEventListener("click", function () {
+                mobileMenu.classList.toggle("show");
+                hm.classList.toggle("menu-icon");
+                console.log(document.getElementById("close-iconn"))
+                cerrar.classList.toggle("close-icon");
+            });
+            cerrar.addEventListener("click", function () {
+                mobileMenu.classList.toggle("show");
+                cerrar.classList.toggle("close-icon");
+            });
 });
 // Función para cargar contenido dinámicamente
 function loadPage(page, dataProduct = null) {
