@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Sex Shop</title>
+    <link rel="icon" type="image/png" href="assets/images/web/favicon.png">
+</head>
+<body>
+    <header class="header header_c">
+        <!-- Banner con cambio de texto -->
+        <div class="banner" id="banner">
+            <span id="banner-text">ENVÍO GRATIS Y PAGO CONTRA ENTREGA</span>
+            <span id="banner-icon">🇨🇴</span>
+        </div>
+        <hr class="divider"> <!-- Línea de separación -->
+    
+        <!-- Navbar -->
+        <div class="navbar">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="/">
+                    <img src="assets/images/web/logo.png" alt="logo">
+                </a>
+            </div>
+            <!-- Icono del menú hamburguesa -->
+            <div class="menu-icon">
+                <button class="menu-toggle" id="menu-toggle">
+                    <span id="menu-iconn">☰</span> <!-- Icono del menú hamburguesa -->
+                    <!-- Icono de cierre (X) -->
+                </button>
+            </div>
+    
+            <!-- Menú de navegación -->
+            <nav class="nav-menu" id="nav-menu">
+                
+                <button onclick="loadPage('home')">Inicio</button>
+                <button onclick="loadPage('catalogo')">Catálogo</button>
+                <button onclick="loadPage('contacto')">Contacto</button>
+                <!-- Botón de carrito -->
+                <a href="{{ route('carrito.mostrar') }}" class="cart">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </nav>
+        </div>
+    
+        <!-- Menú desplegable móvil -->
+        <!-- Menú de navegación móvil -->
+<nav class="mobile-menu" id="mobile-menu">
+    <span id="close-iconn" class="close-icon cerrar">✖</span>
+    <button onclick="loadPage('home')">Inicio</button>
+    <button onclick="loadPage('catalogo')">Catálogo</button>
+    <button onclick="loadPage('contacto')">Contacto</button>
+</nav>
+    </header>
+   
+    <main>
+        <a  onclick="loadPage('cart')" class="fl-carrito">
+            <i class="fas fa-shopping-cart"></i>
+        </a>
+        
+        <!-- Botón flotante de WhatsApp -->
+        <a href="https://wa.me/1234567890?text=Hola,%20quiero%20información%20acerca%20de%20sus%20productos" 
+        target="_blank" class="fl-whatsapp">
+         <i class="fab fa-whatsapp"></i>
+     </a>
+        <div id="content" class="main_c"></div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <!-- Sección 1: Descripción corta de la tienda -->
+            <div class="grid">
+                <div class="logo-section">
+                    <img class="logo" src="assets/images/web/logo.png" alt="logo">
+                    <p class="description">Productos para adultos con total discreción, calidad, variedad y buen precio. Envíos a domicilio en Cúcuta, pagos contra entrega.</p>
+                </div>
+                <div class="icon-section">
+                    <i class="fas fa-paw icon-large"></i>
+                </div>
+            </div>
+    
+            <!-- Sección 2: Atención al cliente -->
+            <div class="customer-service">
+                <h3>Atención al Cliente</h3>
+                <p>Contáctanos para resolver tus dudas o problemas.</p>
+                <ul class="contact-list">
+                    <li><a href="tel:+573001234567" class="contact-link">Teléfono</a></li>
+                    <li><a href="mailto:contacto@mitienda.com" class="contact-link">Correo</a></li>
+                    <li><a href="#" class="contact-link">Dirección</a></li>
+                </ul>
+                <a href="https://wa.me/573107274921?text=Hola,%20estoy%20interesado%20en%20comprar%20este%20producto" class="whatsapp-button">
+                    <i class="fab fa-whatsapp whatsapp-icon"></i>
+                    <span>Contactar por WhatsApp</span>
+                </a>
+            </div>
+    
+            <!-- Sección 3: Pago Contra Entrega -->
+            <div class="payment-section">
+                <i class="fas fa-handshake handshake-icon"></i>
+                <h2>Pago Contra Entrega</h2>
+            </div>
+    
+            <!-- Sección 4: Empresas que respaldan -->
+            <div class="partners">
+                <h3>Empresas que Respaldan</h3>
+                <p>Con el respaldo de importantes empresas colombianas que garantizan envíos seguros y pagos contra entrega.</p>
+                <div class="partners-logos">
+                    <img src="assets/images/web/envia.png" alt="Envia">
+                    <img src="assets/images/web/industria.png" alt="Industria">
+                </div>
+            </div>
+    
+            <!-- Sección 5: Políticas -->
+            <div class="policies">
+                <h3>Políticas</h3>
+                <ul class="policy-links">
+                    <li><a onclick="loadPage('quienes_somos')">¿Quiénes Somos?</a></li>
+                    <li><a onclick="loadPage('politica_privacidad')">Política de Privacidad</a></li>
+                    <li><a onclick="loadPage('hometerminos_condiciones')">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+    
+            <!-- Sección 6: Enlaces rápidos y redes sociales -->
+            <div class="quick-links">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a onclick="loadPage('home')">Inicio</a></li>
+                    <li><a onclick="loadPage('catalogo')">Catálogo</a></li>
+                    <li><a onclick="loadPage('contacto')">Contacto</a></li>
+                </ul>
+            </div>
+    
+            <div class="social-media">
+                <h3>Síguenos</h3>
+                <!-- Iconos de redes sociales -->
+            </div>
+        </div>
+    </footer>
+    <script>
+        // JavaScript para mostrar y ocultar el menú hamburguesa en dispositivos móviles
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.getElementById("menu-toggle");
+            const mobileMenu = document.getElementById("mobile-menu");
+            const hm = document.getElementById("menu-iconn");
+            const cerrar = document.getElementById("close-iconn");
+            menuToggle.addEventListener("click", function () {
+                mobileMenu.classList.toggle("show");
+                hm.classList.toggle("menu-icon");
+                console.log(document.getElementById("close-iconn"))
+                cerrar.classList.toggle("close-icon");
+            });
+            cerrar.addEventListener("click", function () {
+                mobileMenu.classList.toggle("show");
+                cerrar.classList.toggle("close-icon");
+            });
+});
+// Función para cargar contenido dinámicamente
+function loadPage(page, dataProduct = null) {
+    console.log("Página:", page);
+    if (dataProduct) console.log("Data Product:", dataProduct);
+
+    let content = document.getElementById("content");
+
+    // Verifica si el navegador soporta Fetch API
+    if (!window.fetch) {
+        console.error("Tu navegador no soporta fetch API.");
+        return;
+    }
+
+    // Determina qué página cargar
+    let pageToLoad = dataProduct === "cart" ? "cart.html" : `pages/${page}.html`;
+
+    // Cargar el contenido del archivo HTML correspondiente
+    fetch(pageToLoad)
+        .then(response => {
+            if (!response.ok) throw new Error("Error al cargar la página");
+            return response.text();
+        })
+        .then(html => {
+            content.innerHTML = html;
+            ejecutarScripts(page, dataProduct); // 🔥 Ejecuta los scripts nuevamente
+
+            // Si dataProduct es diferente de "cart" y existe, añadir al carrito
+            if (dataProduct && dataProduct !== "cart") {
+                añadirAlCarrito(dataProduct);
+            }
+        })
+        .catch(error => {
+            console.error("Hubo un problema al cargar la página:", error);
+            content.innerHTML = "<h2>Error 404</h2><p>Página no encontrada.</p>";
+        });
+}
+
+// Función para añadir un producto al carrito
+function añadirAlCarrito(productId) {
+    console.log(`🛒 Añadiendo producto al carrito: ${productId}`);
+
+    // Obtener el carrito desde localStorage o inicializar uno vacío
+    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+
+    // Buscar si el producto ya está en el carrito
+    let productoExistente = carrito.find(p => p.id === productId);
+
+    if (productoExistente) {
+        productoExistente.cantidad += 1;
+        mostrarMensaje("✅ Producto actualizado en el carrito");
+    } else {
+        carrito.push({ id: productId, cantidad: 1 });
+        mostrarMensaje("🛍️ Producto añadido al carrito");
+    }
+
+    // Guardar en localStorage
+    localStorage.setItem("carrito", JSON.stringify(carrito));
+}
+
+// Función para mostrar el mensaje emergente con FontAwesome
+function mostrarMensaje(mensaje) {
+    let msgBox = document.createElement("div");
+    msgBox.innerHTML = `<i class="fas fa-check-circle"></i> ${mensaje}`;
+    msgBox.classList.add("mensaje-carrito");
+    document.body.appendChild(msgBox);
+
+    // Eliminar el mensaje después de 2 segundos
+    setTimeout(() => {
+        msgBox.remove();
+    }, 2000);
+}
+// 🔥 Función para volver a ejecutar los scripts después de cargar una página
+function ejecutarScripts(page, dataProduct = null) {
+    // Importar nuevamente los módulos
+
+    banner();
+    //funciones para cuando home este activo o cargado: 
+    // Si la página es "home", ejecuta slider() y cuttext()
+    if (page === "home") {
+        slider();
+        cargar();
+    }else if(page === "catalogo"){
+        cargar();
+    }else if(page === "producto"){
+        cargar_producto(dataProduct);
+    }else if(page === "cart"){
+        cart();
+    }
+    faq();
+    cuttext();
+}
+    </script>
+    
+    
+    <!-- Espaciador para evitar que el contenido principal quede oculto debajo del header -->
+    <div class="pt-24"></div>
+
+    
+    <script type="module" src="script/index.js"></script>
+</body>
+</html>

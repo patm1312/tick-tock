@@ -1,0 +1,59 @@
+[
+    {
+         "codigo": "curren8398",
+         "nombre": "Dildo Realista Deep Exploration",
+         "descripcion": "Dildo Realista Deep Exploration",
+         "precio": 90000,
+         "detalles": {
+             "nombre": "Dildo grueso y venoso.",
+             "descripcion": "Juguete seguro con la piel de textura suave y flexible. Cuenta con una ventosa de succión que le dará firmeza y se adhiere perfectamente a superficies planas."
+         },
+         "media": [
+             {
+                 "tipo": "imagen",
+                 "url": "assets/images/productos/curren8398/relojuno.png"
+             },
+             {
+                "tipo": "imagen",
+                "url": "assets/images/productos/curren8398/relojdos.png"
+            },
+             {
+                 "tipo": "video",
+                 "url": "assets/images/productos/curren8398/relojuno.mp4"
+             }
+ 
+         ],
+         "atributos": [
+             {
+                 "tipo": "Color:",
+                 "valor": "Piel"
+             },
+             {
+                 "tipo": "Largo total",
+                 "valor": "23 cm"
+             },
+             {
+                "tipo": "Largo insertable",
+                "valor": " 21 cm"
+            },
+            {
+                "tipo": "Ancho",
+                "valor": "3.5 cm"
+            },
+            {
+                "tipo": "Circunferencia:",
+                "valor": "13.5 cm"
+            },
+            {
+                "tipo": "Cuidado y limpieza:",
+                "valor": "Jabón suave o limpiador de juguetes."
+            },
+            {
+                "tipo": "Confidencialidad:",
+                "valor": "Tus pedidos se envían en una caja o sobre totalmente sellado opaco sin ningún tipo de marcas externas. Para nosotros es muy importante tu privacidad."
+            }
+ 
+         ]
+     }
+ ]
+ 
