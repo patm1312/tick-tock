@@ -54,6 +54,106 @@
             }
  
          ]
-     }
+         
+     },
+     {
+        "codigo": "curren2",
+        "nombre": "Masturbador Abby Kitty - Flesh",
+        "descripcion": "Funda masturbadora con orificio en forma de vagina.",
+        "precio": 60000,
+        "detalles": {
+            "nombre": "Funda masturbadora con orificio en forma de vagina.",
+            "descripcion": "Funda masturbadora con orificio en forma de vagina."
+        },
+        "media": [
+            {
+                "tipo": "imagen",
+                "url": "assets/images/productos/curren2/curren2.png"
+            },
+            {
+               "tipo": "imagen",
+               "url": "assets/images/productos/curre2/curren3.png"
+           },
+            {
+                "tipo": "video",
+                "url": "assets/images/productos/curren8398/relojuno.mp4"
+            }
+
+        ],
+        "atributos": [
+            {
+                "tipo": "Color:",
+                "valor": "Flesh"
+            },
+            {
+                "tipo": "Material",
+                "valor": " T-Skin"
+            },
+            {
+               "tipo": "Largo",
+               "valor": " 12.5 cm"
+           },
+           {
+               "tipo": "Largo Penetrable",
+               "valor": "Jabón suave o limpiador de juguetes."
+           },
+           {
+               "tipo": "Confidencialidad:",
+               "valor": "Tus pedidos se envían en una caja o sobre totalmente sellado opaco sin ningún tipo de marcas externas. Para nosotros es muy importante tu privacidad."
+           }
+
+        ]
+        
+    },
+    {
+       "codigo": "curren3",
+       "nombre": "Látigo Whip Me Baby Red",
+       "descripcion": "Látigo de cuero diseñado para experimentación de juegos sensoriales, castigos y caricias.",
+       "precio": 60000,
+       "detalles": {
+           "nombre": "Látigo Whip Me Baby Red",
+           "descripcion": "Funda masturbadora con orificio en forma de vagina."
+       },
+       "media": [
+           {
+               "tipo": "imagen",
+               "url": "assets/images/productos/curren3/curren3.png"
+           },
+           {
+              "tipo": "imagen",
+              "url": "assets/images/productos/curren3/curren4.png"
+          },
+           {
+               "tipo": "video",
+               "url": "assets/images/productos/curren8398/relojuno.mp4"
+           }
+
+       ],
+       "atributos": [
+           {
+               "tipo": "Color:",
+               "valor": "Negro"
+           },
+           {
+               "tipo": "Material",
+               "valor": "Cuero Sintetico"
+           },
+           {
+              "tipo": "Largo",
+              "valor": " 38.75 cm"
+          },
+          {
+              "tipo": "Medidas",
+              "valor": "Tiras 25 cm"
+          },
+          {
+              "tipo": "Confidencialidad:",
+              "valor": "Tus pedidos se envían en una caja o sobre totalmente sellado opaco sin ningún tipo de marcas externas. Para nosotros es muy importante tu privacidad."
+          }
+
+       ]
+       
+   }
+     
  ]
  
