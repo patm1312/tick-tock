@@ -1,0 +1,122 @@
+[
+    {
+         "codigo": "curren8314",
+         "nombre": "reloj para hombre Curren 8314",
+         "descripcion": "Reloj Deportivo de Pulsera",
+         "precio": 140000,
+         "detalles": {
+             "nombre": "Relojes de Hombre Marca Superior Reloj Deportivo de Pulsera",
+             "descripcion": "Reloj Masculino Relojes de Hombre Marca Superior Reloj Deportivo de Pulsera para Hombre Reloj de Cuarzo de Cuero erkek saat Curren 8314"
+         },
+         "media": [
+             {
+                 "tipo": "imagen",
+                 "url": "assets/images/productos/curren8314/uno.png"
+             },{
+                 "tipo": "imagen",
+                 "url": "assets/images/productos/curren8314/dos.png"
+             },{
+                 "tipo": "imagen",
+                 "url": "assets/images/productos/curren8314/tres.png"
+             }
+             
+
+         ],
+         "atributos": [
+             {
+                 "tipo": "Movimiento:",
+                 "valor": " Movimiento de cuarzo del módulo de tiempo (fabricado en Japón)"
+             },
+             {
+                "tipo": "Material del espejo:",
+                "valor": "Hardlex"
+            },
+            {
+                "tipo": "Reloj multifuncional",
+                "valor": "Este reloj tiene función de cronógrafo"
+            },
+            {
+                "tipo": "Profundidad de Resistencia al Agua",
+                "valor": "3 barras"
+            },
+            {
+                "tipo": "Movimiento:",
+                "valor": "Cuarzo"
+            },
+            {
+                "tipo": "Tipo de Material de la Correa",
+                "valor": "cuero"
+            },
+            {
+                "tipo": "Ventana del Dial tipo de Material",
+                "valor": "Vidrio"
+            }
+            ,
+            {
+                "tipo": "Material de la Caja",
+                "valor": "Aleación del cinc,  Ronda"
+            }
+ 
+         ]
+         
+     },
+       {
+         "codigo": "curren9090",
+         "nombre": "reloj para hombre Curren 9090",
+         "descripcion": "Reloj lujo de Pulsera",
+         "precio": 220000,
+         "detalles": {
+             "nombre": "Relojes de Hombre Marca Superior Reloj lujo  de Pulsera",
+             "descripcion": "Reloj Masculino Relojes de Hombre Marca Superior Reloj resistente al agua 3ATM, correa de acero inoxidable"
+         },
+         "media": [
+             {
+                 "tipo": "imagen",
+                 "url": "assets/images/productos/curren9090/uno.png"
+             },{
+                 "tipo": "imagen",
+                 "url": "assets/images/productos/curren9090/dos.png"
+             },{
+                 "tipo": "imagen",
+                 "url": "assets/images/productos/curren9090/tres.png"
+             }
+             
+
+         ],
+         "atributos": [
+             {
+                 "tipo": "Movimiento:",
+                 "valor": " Movimiento de cuarzo del módulo de tiempo (fabricado en Japón)"
+             },
+             {
+                "tipo": "Material del espejo:",
+                "valor": "Hardlex"
+            },
+            {
+                "tipo": "Profundidad de Resistencia al Agua",
+                "valor": "3 barras, Resistente al agua, Impermeable, Luminoso"
+            },
+            {
+                "tipo": "Movimiento:",
+                "valor": "Cuarzo"
+            },
+            {
+                "tipo": "Marque la pantalla",
+                "valor": "Analógico"
+            },
+            {
+                "tipo": "Ventana del Dial tipo de Material",
+                "valor": "Vidrio"
+            }
+            ,
+            {
+                "tipo": "Material de la Caja",
+                "valor": "Aleación del cinc,  Ronda"
+            }
+ 
+         ]
+         
+     }
+     
+ ]
+ 
