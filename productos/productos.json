@@ -116,6 +116,63 @@
  
          ]
          
+     },
+     {
+         "codigo": "curren8445",
+         "nombre": "reloj para hombre Curren 8445",
+         "descripcion": "Reloj lujo de Pulsera",
+         "precio": 220000,
+         "detalles": {
+             "nombre": "Relojes de Hombre Marca Superior Reloj lujo  de Pulsera",
+             "descripcion": "Reloj Masculino Relojes de Hombre Marca Superior Reloj resistente al agua 3ATM, correa de acero inoxidable"
+         },
+         "media": [
+             {
+                 "tipo": "imagen",
+                 "url": "assets/images/productos/curren8445/uno.png"
+             },{
+                 "tipo": "imagen",
+                 "url": "assets/images/productos/curren8445/dos.png"
+             },{
+                 "tipo": "imagen",
+                 "url": "assets/images/productos/curren8445/tres.png"
+             }
+             
+
+         ],
+         "atributos": [
+             {
+                 "tipo": "Materiales",
+                 "valor": "Aleacion"
+             },
+             {
+                "tipo": "Tipo de Pantalla",
+                "valor": "Puntero"
+            },
+            {
+                "tipo": "Movimiento",
+                "valor": "cuarzo"
+            },
+            {
+                "tipo": "Movimiento:",
+                "valor": "Cuarzo"
+            },
+            {
+                "tipo": "Característica",
+                "valor": "Fecha Automática, Impermeable, Cronógrafo"
+            },
+            {
+                "tipo": "Ventana del Dial tipo de Material",
+                "valor": "Vidrio"
+            }
+            ,
+            {
+                "tipo": "Número de Modelo",
+                "valor": "8445"
+            }
+ 
+         ]
+         
      }
      
  ]
